@@ -1,0 +1,16 @@
+<style>@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }</style>
+
+<body style="background-color: orange; text-align: center; font-family: 'yg-jalnan';">
+<div class="container" style="margin: 200px;">
+<h1>주토피아에서 환상의 짝꿍을 찾아봐요~~!!!</h1>
+<img src="https://mblogthumb-phinf.pstatic.net/20160514_49/cabi250n_1463156007539KrMB7_JPEG/main.jpg?type=w800" style="width:400px; ">
+
+<form method="POST">
+    {% csrf_token %}
+    
+        {{form.as_p}}
+    
+   
+</form>
+</div>
+</body>

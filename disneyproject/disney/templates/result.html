@@ -1,0 +1,14 @@
+<style>@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }</style>
+<body style="background-color: orange; text-align: center;font-family: 'yg-jalnan';">
+
+<a href="{% url 'post' %}">다시하기</a>
+<div class="container">
+    <p><span style="color: darkblue;">"{{name.name}}"</span>님의 환상의 짝꿍은~~!!</p>
+    <img src="{{disney.image_url}}" style="width:500px; height:400px;">
+    <p style="color:darkblue;">"{{disney.char_name}}"</p>
+   
+    <pm>
+        {{disney.body}}
+    </pm>
+</div>
+</body>
